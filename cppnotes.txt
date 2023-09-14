@@ -1,0 +1,22 @@
+(1)Local and Global variables can have the same value 
+but the local variables are preffered over global variables.
+(2)By default a float literal is in the long double form
+(3)static means in a function that variable will be initialized only once.
+
+
+ //c++-->inititally called as c with classes by stroustroup
+    //classes-->extension of structures ie ***structure+more
+    //structures had limitations
+    //            -->members are public
+    //            -->no methods ie we can't add functions inside the structure
+    //classes can have methods(functions) and properties(values)
+    //classes can make few members as private &few as public
+    //in c++ structures names can be shortened without typedef
+    //you can declare objects along with the class declaration
+        // class employee{
+        //     //class defination
+        // }harry,rohan,lovesh;***************************valid syntax
+    //harry.slary=8 makes no sence if salary is private
+
+constructor is a special member function with the same name as of the class
+and is used to initialze the objects of the class
