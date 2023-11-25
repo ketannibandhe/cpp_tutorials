@@ -30,6 +30,4 @@ int main(){
     c1.printnum();
     c2.printnum();
     c3.printnum();
-
-    
     return 0;}

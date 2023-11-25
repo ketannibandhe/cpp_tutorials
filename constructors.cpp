@@ -6,6 +6,12 @@
 //     int b;
 //     public:
 //     complex(void);//declaration of constructor
+//     int num1(){
+//         return a;
+//     }
+//     int num2(){
+//         return b;
+//     }
 //     void printnum(){
 //         cout<<"the complex number is :"<<a<<" + "<<b<<"i"<<endl;
 //     }
@@ -17,10 +23,20 @@
 //     a=9;
 //     b=5;
 // }
+
+// class Derived:public complex{
+//     int number;
+//     public:
+//     void display(){
+//         cout<<"value of a in complex class: "<<num1()<<endl;
+//         cout<<"value of a in complex class: "<<num2()<<endl;
+//     }
+// };
 // int main(){
 //     complex c1,c2,c3;
 //     c1.printnum();
-    
+//     Derived d;
+//     d.display();
 //     return 0;
 // }
 

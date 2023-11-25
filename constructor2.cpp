@@ -3,10 +3,6 @@ using namespace std;
 class point{
     int a,b;
     public:
-    point(int x,int y){
-        a=x;
-        b=y;
-    }
     point(int,int);
     void takepoint(){
         cout<<"point is ("<<a<<","<<b<<")"<<endl;

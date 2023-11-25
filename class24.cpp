@@ -31,7 +31,7 @@ int employee :: count;//initializing static variable otside the class
 int main(){
     employee harry,ketan,jay;
     // harry.id=1;
-    // harry,count=2;invalid as id and count are private
+    // harry.count=2;invalid as id and count are private
     
     harry.setdata();
     harry.getdata();
