@@ -14,9 +14,11 @@ public:
     void printdata();
 };
 A& A:: setdata(int a)//************************************************
+//here A& is the retur type of setdata function
 {
     this->a = a;
-    //here the names of arguments and class variables are same i.e 'a'
+    //here the names of setdata function argument and class variables 
+    //are same i.e 'a'
     //a=a; also try to run using this syntax
     //if we want to return a then we can do so using this.
     return *this;
@@ -28,7 +30,7 @@ void A::printdata()
     /*
     'this' is a keyword which is a pointer which points to the object
      which invokes the member function
-     this represents(represents) the object 
+     this represents the object 
      which has called that member function.
      Here "a"     is an object which has called the member functions
      setdata and printdata

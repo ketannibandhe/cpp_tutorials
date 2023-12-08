@@ -39,7 +39,8 @@ int main(){
         float q;
         cout<<"enter ID and price of item "<<i+1<<endl;
         cin>>p>>q;
-        ptr2->getdata(p,q);
+        (*ptr2).getdata(p,q);
+        // ptr2->getdata(p,q);
         ptr2++;//****************imp step**********************
     }
     for(int i=0;i<5;i++){

@@ -7,7 +7,7 @@ class Base1{
     void setdata();
 };
 void Base1::setdata(){
-    cout<<"value of a in base class: "<<a<<endl;
+    cout<<"value of a in base1 class: "<<a<<endl;
 }
 
 class Derived1:public Base1{
@@ -29,10 +29,10 @@ int main(){
     base_ptr->setdata();
 
     Derived1* dptr;
-    dptr=&d1;
-    dptr->setdata();
+    // dptr=&d1;
+    // dptr->setdata();
     dptr->b=90;//derived ptr->derived var
-    dptr->setdata();
+    // dptr->setdata();
     dptr->a=60;//derived var->base var
     dptr->setdata();
     return 0;}
@@ -45,4 +45,6 @@ int main(){
     when we call a function in derived class using 
     pointer to derived class,it will call the same function from 
     Base class as the pointer is of the base class.
+    with the help of base class pointer we try to fetch 
+    //derived class properties result->unsuccessful
     */
