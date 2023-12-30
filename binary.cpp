@@ -11,5 +11,5 @@ int main(){
         }
         n=n/2;
     }
-    cout<<"1's in bunary of n:"<<count<<endl;
+    cout<<"number of 1's in binary conversion of decimal n:"<<count<<endl;
     return 0;}

@@ -11,6 +11,7 @@ void Base1::setdata(){
 }
 
 class Derived1:public Base1{
+    
     public:
     int b=900;
     void setdata();

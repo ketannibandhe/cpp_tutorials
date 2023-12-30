@@ -10,12 +10,13 @@ int count_digits(int n){
     }
     return count;
 }
-void check_armstrong(int n,int i){
+void check_armstrong(int n){
     int number=n,sum=0,rem;
     while(n!=0){
         rem=n%10;
-        sum+=pow(rem,i);
+        sum=(sum*10)+rem;
         n/=10;
+    
     }
     if(sum==number){
         cout<<"Armstrong number"<<endl;
@@ -28,6 +29,6 @@ int main(){
     int num;
     cin>>num;
     int digits = count_digits(num);
-    check_armstrong(num,digits);
+    check_armstrong(num);
     return 0;
 }

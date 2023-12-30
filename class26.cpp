@@ -37,6 +37,7 @@ int main()
 
     return 0;
 }
+
 /*
 friend function doesn't become a part of class though it is declared inside the
 class

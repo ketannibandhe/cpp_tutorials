@@ -50,6 +50,7 @@ void score::printscore(){
 
 
 class result:public marks,public score{
+    
     protected:
     float total;
     public:
